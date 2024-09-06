@@ -1,0 +1,31 @@
+{
+  "name": "engine-performance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "@antv/g": "6.0.13",
+    "@antv/g-canvas": "2.0.12",
+    "@antv/g-svg": "2.0.11",
+    "@antv/g-webgl": "^2.0.16",
+    "@antv/g2": "^5.2.5",
+    "cytoscape": "^3.30.2",
+    "g6v4": "npm:@antv/g6@4.8.24",
+    "g6v5": "npm:@antv/g6@5.0.20",
+    "graphology": "^0.25.4",
+    "iperf": "0.1.0-beta.14",
+    "sigma": "3.0.0-beta.29",
+    "vis-data": "^7.1.9",
+    "vis-network": "^9.1.9",
+    "vite": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/cytoscape": "^3.21.7"
+  }
+}
