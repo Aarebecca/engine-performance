@@ -1,5 +1,5 @@
 import { Chart } from '@antv/g2';
-import data from './reports/13849761_2024-09-05_20-05-07.json';
+import data from './13849761_2024-09-06_10-49-38.json';
 
 const reports = data.reports;
 
@@ -40,7 +40,6 @@ facetRect
   .scale('y', {
     type: 'sqrt',
     nice: true,
-    // domain: [0, 5000],
   })
   .axis('x', {
     title: '图规模(节点数x边数)',

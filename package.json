@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "keywords": [],
-  "author": "",
+  "author": "Aarebecca",
   "license": "ISC",
-  "scripts": {
-    "dev": "vite"
-  },
   "dependencies": {
     "@antv/g": "6.0.13",
     "@antv/g-canvas": "2.0.12",
@@ -22,8 +19,7 @@
     "iperf": "0.1.0-beta.14",
     "sigma": "3.0.0-beta.29",
     "vis-data": "^7.1.9",
-    "vis-network": "^9.1.9",
-    "vite": "^5.4.3"
+    "vis-network": "^9.1.9"
   },
   "devDependencies": {
     "@types/cytoscape": "^3.21.7"
