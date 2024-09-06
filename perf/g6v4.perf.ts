@@ -41,9 +41,10 @@ export const G6v4_Canvas_1000x1000 = G6V4CaseFactor(1000, 1000);
 export const G6v4_Canvas_5000x1000 = G6V4CaseFactor(5000, 1000);
 export const G6v4_Canvas_10000x5000 = G6V4CaseFactor(10000, 5000);
 export const G6v4_Canvas_100000x50000 = G6V4CaseFactor(100000, 50000);
+G6v4_Canvas_100000x50000.iteration = 5;
+
 export const G6v4_SVG_100x100 = G6V4CaseFactor(100, 100, 'svg');
 export const G6v4_SVG_1000x0 = G6V4CaseFactor(1000, 0, 'svg');
 export const G6v4_SVG_1000x1000 = G6V4CaseFactor(1000, 1000, 'svg');
 export const G6v4_SVG_5000x1000 = G6V4CaseFactor(5000, 1000, 'svg');
 export const G6v4_SVG_10000x5000 = G6V4CaseFactor(10000, 5000, 'svg');
-// export const G6V4_SVG_100000x50000 = G6V4CaseFactor(100000, 50000, 'svg');
