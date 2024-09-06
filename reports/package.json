@@ -5,6 +5,7 @@
     "build": "vite build"
   },
   "dependencies": {
+    "@antv/g2": "^5.2.5",
     "vite": "^5.4.3"
   }
 }
