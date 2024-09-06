@@ -50,8 +50,8 @@ facetRect
   .transform({
     type: 'dodgeX',
   })
-  .tooltip({
-    title: 'lib',
+  .interaction('tooltip', {
+    shared: true,
   })
   .interaction('elementHighlight', { background: true });
 
