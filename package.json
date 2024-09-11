@@ -9,13 +9,15 @@
   "dependencies": {
     "@antv/g": "6.0.13",
     "@antv/g-canvas": "2.0.12",
+    "@antv/g-canvas-legacy": "npm:@antv/g-canvas@0.5.17",
+    "@antv/g-svg-legacy": "npm:@antv/g-svg@0.5.7",
     "@antv/g-svg": "2.0.11",
     "@antv/g-webgl": "^2.0.16",
     "cytoscape": "^3.30.2",
     "g6v4": "npm:@antv/g6@4.8.24",
     "g6v5": "npm:@antv/g6@5.0.20",
     "graphology": "^0.25.4",
-    "iperf": "0.1.0-beta.14",
+    "iperf": "^0.1.0-beta.15",
     "sigma": "3.0.0-beta.29",
     "vis-data": "^7.1.9",
     "vis-network": "^9.1.9"

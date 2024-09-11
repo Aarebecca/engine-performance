@@ -1,14 +1,14 @@
 interface MockDataOptions {
-  lib: 'g6v5' | 'g6v4' | 'g' | 'cytoscape' | 'vis-network';
+  lib?: 'g6v5' | 'g6v4' | 'g' | 'cytoscape' | 'vis-network';
   size?: [number, number];
 }
 
 export function mockData<T extends Record<string, any>>(
   nodes: number,
   edges: number,
-  options: MockDataOptions
+  options?: MockDataOptions
 ): T {
-  const { lib, size: [width, height] = [500, 500] } = options;
+  const { lib, size: [width, height] = [500, 500] } = options || {};
   const data = {
     nodes: Array.from({ length: nodes }, (_, i) => {
       const datum = { id: `node-${i}` };
@@ -22,6 +22,7 @@ export function mockData<T extends Record<string, any>>(
         Object.assign(datum, position);
       else if (lib === 'cytoscape')
         Object.assign(datum, { position, data: { id: datum.id, ...position } });
+      else Object.assign(datum, position);
 
       return datum;
     }),

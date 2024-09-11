@@ -1,0 +1,167 @@
+{
+  "version": "1.0",
+  "device": {
+    "os": {
+      "arch": "arm64",
+      "distro": "macOS",
+      "serial": "1384976101823479a6d67ee78a6e796b229218f99a2356591ef2db2c6eaf460f"
+    },
+    "cpu": {
+      "manufacturer": "Apple",
+      "brand": "M1 Pro",
+      "speed": 2.4,
+      "cores": 10
+    },
+    "memory": {
+      "total": 16384,
+      "free": 71.46875
+    },
+    "gpu": {
+      "vendor": "Apple",
+      "model": "Apple M1 Pro",
+      "cores": "16"
+    }
+  },
+  "repo": "2c73011efcbaf9885f1d6d5758412ee7f2a01889",
+  "client": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/128.0.6613.18 Safari/537.36",
+  "reports": {
+    "Gv4_Canvas_100000x50000": {
+      "time": [
+        {
+          "min": 0.20000000298023224,
+          "max": 0.9000000059604645,
+          "median": 0.29999999701976776,
+          "avg": 0.27500000409781933,
+          "variance": 0.0018750000558793965,
+          "reliable": false,
+          "key": "init"
+        },
+        {
+          "min": 230.79999999701977,
+          "max": 477.3999999910593,
+          "median": 247.90000000596046,
+          "avg": 262.0999999977648,
+          "variance": 1056.77749971807,
+          "reliable": true,
+          "key": "render"
+        }
+      ],
+      "status": "passed"
+    },
+    "Gv4_Canvas_200000x50000": {
+      "time": [
+        {
+          "min": 0.19999998807907104,
+          "max": 1,
+          "median": 0.29999999701976776,
+          "avg": 0.28749999590218067,
+          "variance": 0.0010937501955777494,
+          "reliable": false,
+          "key": "init"
+        },
+        {
+          "min": 569.5,
+          "max": 1235.5,
+          "median": 761,
+          "avg": 790.6125000026077,
+          "variance": 7008.713593644585,
+          "reliable": true,
+          "key": "render"
+        }
+      ],
+      "status": "passed"
+    },
+    "Gv4_Canvas_500000x100000": {
+      "time": [
+        {
+          "min": 0.09999999403953552,
+          "max": 1.2999999970197678,
+          "median": 0.29999999701976776,
+          "avg": 0.2625000011175871,
+          "variance": 0.004843750307336494,
+          "reliable": false,
+          "key": "init"
+        },
+        {
+          "min": 2277.4000000059605,
+          "max": 4803.9000000059605,
+          "median": 2548.2999999970198,
+          "avg": 2810.1250000018626,
+          "variance": 436955.10937293275,
+          "reliable": true,
+          "key": "render"
+        }
+      ],
+      "status": "passed"
+    },
+    "Gv6_Canvas_100000x50000": {
+      "time": [
+        {
+          "min": 4.399999991059303,
+          "max": 699,
+          "median": 689.7999999970198,
+          "avg": 686.3749999981374,
+          "variance": 76.7693749990873,
+          "reliable": false,
+          "key": "init"
+        },
+        {
+          "min": 364.6000000089407,
+          "max": 475.20000000298023,
+          "median": 456.40000000596046,
+          "avg": 451.9500000011176,
+          "variance": 70.74000002410263,
+          "reliable": true,
+          "key": "render"
+        }
+      ],
+      "status": "passed"
+    },
+    "Gv6_Canvas_200000x50000": {
+      "time": [
+        {
+          "min": 20.900000005960464,
+          "max": 2681,
+          "median": 2455.7000000029802,
+          "avg": 2480.025000002235,
+          "variance": 4472.1868747480585,
+          "reliable": true,
+          "key": "init"
+        },
+        {
+          "min": 892.2000000029802,
+          "max": 1116.300000011921,
+          "median": 1060.8999999910593,
+          "avg": 1054.0999999977648,
+          "variance": 549.4599998863041,
+          "reliable": true,
+          "key": "render"
+        }
+      ],
+      "status": "passed"
+    },
+    "Gv6_Canvas_500000x100000": {
+      "time": [
+        {
+          "min": 4.299999997019768,
+          "max": 14493.60000000894,
+          "median": 14132,
+          "avg": 14138.425000002608,
+          "variance": 3656.6268747569807,
+          "reliable": false,
+          "key": "init"
+        },
+        {
+          "min": 2595.699999988079,
+          "max": 3448.2000000029802,
+          "median": 3073.0999999940395,
+          "avg": 3049.7374999988824,
+          "variance": 21758.98234340281,
+          "reliable": true,
+          "key": "render"
+        }
+      ],
+      "status": "passed"
+    }
+  }
+}
