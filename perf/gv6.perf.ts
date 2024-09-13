@@ -64,44 +64,44 @@ function Gv6CaseFactor(nodes: number, edges: number, type: ShapeType, renderer: 
   return test;
 }
 
-// export const Gv6_Canvas_100000x50000_Circle = Gv6CaseFactor(100, 50, 'circle');
-// export const Gv6_Canvas_200000x50000_Circle = Gv6CaseFactor(200, 50, 'circle');
-// export const Gv6_Canvas_500000x100000_Circle = Gv6CaseFactor(500, 100, 'circle');
+export const Gv6_Canvas_100000x50000_Circle = Gv6CaseFactor(100, 50, 'circle');
+export const Gv6_Canvas_200000x50000_Circle = Gv6CaseFactor(200, 50, 'circle');
+export const Gv6_Canvas_500000x100000_Circle = Gv6CaseFactor(500, 100, 'circle');
 
-// export const Gv6_Canvas_100000x50000_Rect = Gv6CaseFactor(100, 50, 'rect');
-// export const Gv6_Canvas_200000x50000_Rect = Gv6CaseFactor(200, 50, 'rect');
-// export const Gv6_Canvas_500000x100000_Rect = Gv6CaseFactor(500, 100, 'rect');
+export const Gv6_Canvas_100000x50000_Rect = Gv6CaseFactor(100, 50, 'rect');
+export const Gv6_Canvas_200000x50000_Rect = Gv6CaseFactor(200, 50, 'rect');
+export const Gv6_Canvas_500000x100000_Rect = Gv6CaseFactor(500, 100, 'rect');
 
-// export const Gv6_Canvas_100000x50000_Line = Gv6CaseFactor(100, 50, 'line');
-// export const Gv6_Canvas_200000x50000_Line = Gv6CaseFactor(200, 50, 'line');
-// export const Gv6_Canvas_500000x100000_Line = Gv6CaseFactor(500, 100, 'line');
+export const Gv6_Canvas_100000x50000_Line = Gv6CaseFactor(100, 50, 'line');
+export const Gv6_Canvas_200000x50000_Line = Gv6CaseFactor(200, 50, 'line');
+export const Gv6_Canvas_500000x100000_Line = Gv6CaseFactor(500, 100, 'line');
 
-// export const Gv6_Canvas_100000x50000_Path = Gv6CaseFactor(100, 50, 'path');
-// export const Gv6_Canvas_200000x50000_Path = Gv6CaseFactor(200, 50, 'path');
-// export const Gv6_Canvas_500000x100000_Path = Gv6CaseFactor(500, 100, 'path');
+export const Gv6_Canvas_100000x50000_Path = Gv6CaseFactor(100, 50, 'path');
+export const Gv6_Canvas_200000x50000_Path = Gv6CaseFactor(200, 50, 'path');
+export const Gv6_Canvas_500000x100000_Path = Gv6CaseFactor(500, 100, 'path');
 
-// export const Gv6_Canvas_100000x50000_Polygon = Gv6CaseFactor(100, 50, 'polygon');
-// export const Gv6_Canvas_200000x50000_Polygon = Gv6CaseFactor(200, 50, 'polygon');
-// export const Gv6_Canvas_500000x100000_Polygon = Gv6CaseFactor(500, 100, 'polygon');
+export const Gv6_Canvas_100000x50000_Polygon = Gv6CaseFactor(100, 50, 'polygon');
+export const Gv6_Canvas_200000x50000_Polygon = Gv6CaseFactor(200, 50, 'polygon');
+export const Gv6_Canvas_500000x100000_Polygon = Gv6CaseFactor(500, 100, 'polygon');
 
-// export const Gv6_Canvas_100000x50000_Polyline = Gv6CaseFactor(100, 50, 'polyline');
-// export const Gv6_Canvas_200000x50000_Polyline = Gv6CaseFactor(200, 50, 'polyline');
-// export const Gv6_Canvas_500000x100000_Polyline = Gv6CaseFactor(500, 100, 'polyline');
+export const Gv6_Canvas_100000x50000_Polyline = Gv6CaseFactor(100, 50, 'polyline');
+export const Gv6_Canvas_200000x50000_Polyline = Gv6CaseFactor(200, 50, 'polyline');
+export const Gv6_Canvas_500000x100000_Polyline = Gv6CaseFactor(500, 100, 'polyline');
 
-// export const Gv6_Canvas_100000x50000_Group = Gv6CaseFactor(100, 50, 'group');
-// export const Gv6_Canvas_200000x50000_Group = Gv6CaseFactor(200, 50, 'group');
-// export const Gv6_Canvas_500000x100000_Group = Gv6CaseFactor(500, 100, 'group');
+export const Gv6_Canvas_100000x50000_Group = Gv6CaseFactor(100, 50, 'group');
+export const Gv6_Canvas_200000x50000_Group = Gv6CaseFactor(200, 50, 'group');
+export const Gv6_Canvas_500000x100000_Group = Gv6CaseFactor(500, 100, 'group');
 
-// export const Gv6_Canvas_100000x50000_Ellipse = Gv6CaseFactor(100, 50, 'ellipse');
-// export const Gv6_Canvas_200000x50000_Ellipse = Gv6CaseFactor(200, 50, 'ellipse');
-// export const Gv6_Canvas_500000x100000_Ellipse = Gv6CaseFactor(500, 100, 'ellipse');
+export const Gv6_Canvas_100000x50000_Ellipse = Gv6CaseFactor(100, 50, 'ellipse');
+export const Gv6_Canvas_200000x50000_Ellipse = Gv6CaseFactor(200, 50, 'ellipse');
+export const Gv6_Canvas_500000x100000_Ellipse = Gv6CaseFactor(500, 100, 'ellipse');
 
 export const Gv6_Canvas_100000x50000_Text = Gv6CaseFactor(100, 50, 'text');
 export const Gv6_Canvas_200000x50000_Text = Gv6CaseFactor(200, 50, 'text');
 export const Gv6_Canvas_500000x100000_Text = Gv6CaseFactor(500, 100, 'text');
 
-// export const G_SVG_100000x50000_Circle = Gv6CaseFactor(100, 50, "circle", "svg");
-// export const G_SVG_200000x50000_Circle = Gv6CaseFactor(200, 50, "circle", "svg");
+export const G_SVG_100000x50000_Circle = Gv6CaseFactor(100, 50, "circle", "svg");
+export const G_SVG_200000x50000_Circle = Gv6CaseFactor(200, 50, "circle", "svg");
 
-// export const G_WebGL_10000x5000_Circle = Gv6CaseFactor(10, 5, "circle", "webgl");
-// export const G_WebGL_100000x50000_Circle = Gv6CaseFactor(100, 50, "circle", "webgl");
+export const G_WebGL_10000x5000_Circle = Gv6CaseFactor(10, 5, "circle", "webgl");
+export const G_WebGL_100000x50000_Circle = Gv6CaseFactor(100, 50, "circle", "webgl");
