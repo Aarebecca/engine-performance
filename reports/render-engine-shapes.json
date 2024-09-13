@@ -853,6 +853,29 @@
       ],
       "status": "passed"
     },
+    "Gv6_Canvas_100000x50000_Custom": {
+      "time": [
+        {
+          "min": 0.9000000059604645,
+          "max": 4.300000011920929,
+          "median": 1,
+          "avg": 1,
+          "variance": 0,
+          "reliable": false,
+          "key": "init"
+        },
+        {
+          "min": 3326.300000011921,
+          "max": 3389.399999976158,
+          "median": 3367.699999988079,
+          "avg": 3367.699999988079,
+          "variance": 0,
+          "reliable": true,
+          "key": "render"
+        }
+      ],
+      "status": "passed"
+    },
     "Gv6_Canvas_200000x50000_Circle": {
       "time": [
         {
@@ -1060,6 +1083,29 @@
       ],
       "status": "passed"
     },
+    "Gv6_Canvas_200000x50000_Custom": {
+      "time": [
+        {
+          "min": 0.800000011920929,
+          "max": 19.600000023841858,
+          "median": 1.0999999940395355,
+          "avg": 1.0999999940395355,
+          "variance": 0,
+          "reliable": false,
+          "key": "init"
+        },
+        {
+          "min": 6644.299999982119,
+          "max": 7077.799999982119,
+          "median": 6813.9000000059605,
+          "avg": 6813.9000000059605,
+          "variance": 0,
+          "reliable": true,
+          "key": "render"
+        }
+      ],
+      "status": "passed"
+    },
     "Gv6_Canvas_500000x100000_Circle": {
       "time": [
         {
@@ -1261,6 +1307,29 @@
           "median": 7157.300000011921,
           "avg": 7197.76666667064,
           "variance": 23291.415553774834,
+          "reliable": true,
+          "key": "render"
+        }
+      ],
+      "status": "passed"
+    },
+    "Gv6_Canvas_500000x100000_Custom": {
+      "time": [
+        {
+          "min": 0.7999999821186066,
+          "max": 4.4000000059604645,
+          "median": 0.9000000059604645,
+          "avg": 0.9000000059604645,
+          "variance": 0,
+          "reliable": false,
+          "key": "init"
+        },
+        {
+          "min": 17097.90000000596,
+          "max": 17646.5,
+          "median": 17627.29999998212,
+          "avg": 17627.29999998212,
+          "variance": 0,
           "reliable": true,
           "key": "render"
         }

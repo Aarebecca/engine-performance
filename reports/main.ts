@@ -1,8 +1,7 @@
 import { Chart } from '@antv/g2';
 import graphEngine from './graph-engine.json';
-import renderEngine from './render-engine.json';
 import renderEngineShapes from './render-engine-shapes.json';
-import { data } from 'vis-network';
+import renderEngine from './render-engine.json';
 
 const dataset = {
   'render-engine': renderEngine,

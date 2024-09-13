@@ -1,10 +1,10 @@
-import { Canvas, Circle, Rect, Line, Path, Polygon, Polyline, Group, Ellipse } from '@antv/g';
-import type { Test } from 'iperf';
-import { Renderer as SVGRenderer } from '@antv/g-svg';
+import { Canvas } from '@antv/g';
 import { Renderer as CanvasRenderer } from '@antv/g-canvas';
+import { Renderer as SVGRenderer } from '@antv/g-svg';
 import { Renderer as WebGLRenderer } from '@antv/g-webgl';
-import { mockData, getShapeCtor, getShapeStyleProps } from './utils';
+import type { Test } from 'iperf';
 import type { ShapeType } from './utils';
+import { getShapeCtor, getShapeStyleProps, mockData } from './utils';
 
 function createShape(type: ShapeType, data: Record<string, any>) {
   const { x, y } = data;
@@ -58,6 +58,8 @@ function Gv6CaseFactor(nodes: number, edges: number, type: ShapeType, renderer: 
   // timeout
   if (nodes === 500) test.iteration = 5;
   if (type === 'text') test.iteration = 5;
+  // too slow
+  if (type === 'custom') test.iteration = 3;
   test.after = async (canvas: Canvas) => {
     canvas.destroy();
   };
@@ -100,8 +102,12 @@ export const Gv6_Canvas_100000x50000_Text = Gv6CaseFactor(100, 50, 'text');
 export const Gv6_Canvas_200000x50000_Text = Gv6CaseFactor(200, 50, 'text');
 export const Gv6_Canvas_500000x100000_Text = Gv6CaseFactor(500, 100, 'text');
 
-export const G_SVG_100000x50000_Circle = Gv6CaseFactor(100, 50, "circle", "svg");
-export const G_SVG_200000x50000_Circle = Gv6CaseFactor(200, 50, "circle", "svg");
+export const Gv6_Canvas_100000x50000_Custom = Gv6CaseFactor(100, 50, 'custom');
+export const Gv6_Canvas_200000x50000_Custom = Gv6CaseFactor(200, 50, 'custom');
+export const Gv6_Canvas_500000x100000_Custom = Gv6CaseFactor(500, 100, 'custom');
 
-export const G_WebGL_10000x5000_Circle = Gv6CaseFactor(10, 5, "circle", "webgl");
-export const G_WebGL_100000x50000_Circle = Gv6CaseFactor(100, 50, "circle", "webgl");
+export const G_SVG_100000x50000_Circle = Gv6CaseFactor(100, 50, 'circle', 'svg');
+export const G_SVG_200000x50000_Circle = Gv6CaseFactor(200, 50, 'circle', 'svg');
+
+export const G_WebGL_10000x5000_Circle = Gv6CaseFactor(10, 5, 'circle', 'webgl');
+export const G_WebGL_100000x50000_Circle = Gv6CaseFactor(100, 50, 'circle', 'webgl');

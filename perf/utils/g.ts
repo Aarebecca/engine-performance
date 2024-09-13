@@ -1,7 +1,7 @@
 import type { DisplayObject } from '@antv/g';
-import { Circle, Rect, Line, Path, Polygon, Polyline, Group, Ellipse, Text } from '@antv/g';
+import { Circle, Rect, Line, Path, Polygon, Polyline, Group, Ellipse, Text, CustomElement } from '@antv/g';
 
-export type ShapeType = 'circle' | 'rect' | 'line' | 'path' | 'polygon' | 'polyline' | 'group' | 'text' | 'ellipse';
+export type ShapeType = 'circle' | 'rect' | 'line' | 'path' | 'polygon' | 'polyline' | 'group' | 'text' | 'ellipse' | 'custom';
 
 export function getShapeStyleProps(type: ShapeType, position: { x: number; y: number }, version: 4 | 6): Record<string, any> {
   const commonStyle = {
@@ -64,6 +64,7 @@ export function getShapeStyleProps(type: ShapeType, position: { x: number; y: nu
           [x, y + 20],
         ],
       };
+    case 'custom':
     case 'group':
       return version === 6
         ? {
@@ -111,5 +112,7 @@ export function getShapeCtor(type: ShapeType): new (...args) => DisplayObject {
       return Text;
     case 'ellipse':
       return Ellipse;
+    case 'custom':
+      return class extends CustomElement<any> {};
   }
 }
