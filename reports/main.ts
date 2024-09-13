@@ -54,8 +54,7 @@ function renderChart(dataKey: keyof typeof dataset) {
       ...commonOptions,
       encode: { y: 'scale' },
       axis: {
-        x: { title: '图规模(节点数x边数)' },
-        y: { title: '渲染引擎' },
+        y: { title: '图规模(节点数x边数)' },
       },
       children: [
         {
